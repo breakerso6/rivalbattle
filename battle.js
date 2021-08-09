@@ -99,7 +99,7 @@ function call() {
             mark.insertAdjacentHTML('beforebegin', '<span class="creature" id="09cre"><img src="images/rival/enemycreature/09.jpg" id="09img" class="untap"><br><button onclick="tap(8)">tap/untap</button><button onclick="burn(8)">destroy</button></span>');
             break;
         case 10:
-            mark.insertAdjacentHTML('beforebegin', '<span class="creature" id="10cre"><img src="images/rival/enemycreature/10.jpg" id="10img" class="untap"><br><button onclick="tap(9)">tap/untap</button><button onclick="burn(9)">destroy</button></span>');
+            mark.insertAdjacentHTML('beforebegin', '<span class="creature" id="10cre"><img src="images/rival/enemycreature/10.jpg" id="10img" class="tap"><br><button onclick="tap(9)">tap/untap</button><button onclick="burn(9)">destroy</button></span>');
             break;
     }
 
