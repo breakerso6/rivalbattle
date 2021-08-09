@@ -42,7 +42,7 @@ while (a) {
 function burn(no) {
     var list_element = document.getElementById(creatureids[no]);
     list_element.remove();
-    var i = 1;
+    var 0 = 1;
     while (1) {
         if (creature[i] == 0) {
             creature[i] = no;
