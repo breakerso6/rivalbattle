@@ -48,6 +48,7 @@ function burn(no) {
             creature[i] = no;
             break;
         } else {
+            creature[i]=creature[i+1];
             i++;
         }
     }
