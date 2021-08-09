@@ -30,22 +30,15 @@ creatureids = ["01cre", "02cre", "03cre", "04cre", "05cre", "06cre", "07cre", "0
 
 creatureimgids = ["01img", "02img", "03img", "04img", "05img", "06img", "07img", "08img", "09img", "10img",]
 
-while (a) {
-    var j = math.floor(math.random() * a);
-    var t = creature[--a];
-    creature[a] = creature[j];
-    creature[j] = t;
-}
-
 
 
 function burn(no) {
     var list_element = document.getElementById(creatureids[no]);
     list_element.remove();
-    var 0 = 1;
+    var i = 0;
     while (1) {
         if (creature[i] == 0) {
-            creature[i] = no;
+            creature[i] = no + 1;
             break;
         } else {
             i++;
